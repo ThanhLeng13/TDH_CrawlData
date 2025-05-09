@@ -15,11 +15,10 @@ Kết quả được lưu vào file Excel `alonhadat_data.xlsx`.
 
 ## 🚀 Tính năng chính
 
-- Crawl dữ liệu từ **trang 1 đến trang 99** tại khu vực Đà Nẵng
+- Crawl dữ liệu tại khu vực Đà Nẵng
 - Trích xuất đầy đủ thông tin mỗi bài viết bất động sản
 - Lưu dữ liệu thành file `.xlsx`
 - Hẹn lịch **tự động chạy lúc 6h sáng mỗi ngày**
-- Chạy ở chế độ **ẩn (headless)** – không cần mở trình duyệt
 
 ---
 

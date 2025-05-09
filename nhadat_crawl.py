@@ -5,6 +5,7 @@ import time
 import schedule
 
 # 1. Vào website đã chọn.
+# hàm crawl_data() sẽ tự động mở trình duyệt và thu thập dữ liệu từ trang web
 def crawl_data():
     driver = webdriver.Chrome()
 
