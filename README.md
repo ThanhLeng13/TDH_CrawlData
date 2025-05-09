@@ -1,26 +1,45 @@
-# 🏡 Bất động sản Đà Nẵng Crawler – Alonhadat.com.vn
+# 🏡 Alonhadat Crawler - Bất động sản Đà Nẵng
 
-Trình crawler thu thập dữ liệu bất động sản tại Đà Nẵng từ website [alonhadat.com.vn](https://alonhadat.com.vn), bao gồm các thông tin:
-- Tiêu đề
-- Mô tả
-- Giá
-- Diện tích
-- Địa chỉ
+Một trình thu thập dữ liệu tự động (crawler) sử dụng Python và Selenium để lấy thông tin các bài đăng bất động sản tại **Đà Nẵng** từ website [alonhadat.com.vn](https://alonhadat.com.vn).
 
-Kết quả sẽ được lưu vào file Excel `alonhadat_data.xlsx`.
+Dữ liệu bao gồm:
+- ✅ Tiêu đề
+- ✅ Mô tả
+- ✅ Giá
+- ✅ Diện tích
+- ✅ Địa chỉ
 
-## 🚀 Tính năng
+Kết quả được lưu vào file Excel `alonhadat_data.xlsx`.
 
-- Crawl dữ liệu từ trang 1 đến 99 tại Đà Nẵng
-- Lấy đầy đủ thông tin mỗi bài viết
-- Lưu dữ liệu vào file Excel
-- Tự động chạy vào **6h sáng mỗi ngày**
+---
 
-## 🧰 Yêu cầu
+## 🚀 Tính năng chính
 
-- Python 3.7+
+- Crawl dữ liệu từ **trang 1 đến trang 99** tại khu vực Đà Nẵng
+- Trích xuất đầy đủ thông tin mỗi bài viết bất động sản
+- Lưu dữ liệu thành file `.xlsx`
+- Hẹn lịch **tự động chạy lúc 6h sáng mỗi ngày**
+- Chạy ở chế độ **ẩn (headless)** – không cần mở trình duyệt
+
+---
+
+## ⚙️ Cài đặt
+
+### Yêu cầu hệ thống:
+
+- Python 3.x 
 - Google Chrome
-- ChromeDriver tương thích với Chrome
-- Các thư viện Python:
-  ```bash
-  pip install selenium pandas schedule openpyxl
+- ChromeDriver (phù hợp với phiên bản Chrome đang dùng)
+
+### Cài đặt thư viện:
+
+Chạy lệnh sau để cài đặt các thư viện cần thiết:
+
+```bash
+pip install selenium pandas schedule openpyxl
+
+```
+
+### Hướng dẫn chạy:
+
+python nhadat_crawl.py
