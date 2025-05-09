@@ -42,4 +42,6 @@ pip install selenium pandas schedule openpyxl
 
 ### Hướng dẫn chạy:
 
+```bash
 python nhadat_crawl.py
+```
